@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue Thin';
+}
+
+:root{
+    --font-size-13: 13px;
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-24: 24px;
+
+    --color-main: white;
+    --color-header-border: #F5F5F5;
+    --color-text-main: black;
+    --color-buttons: black;
+    --color-text-button: white;
+    --color-footer: black;
+    --color-footer-link: #757575;
+
+    --font-weight-light: 400;
+    --font-weight-normal: 500;
+    --font-weight-bold: 600;
+
+    --large-width: 1920px;
+    --desktop-width: 1680px;
+    --tablet-width: 1024px;
+    --mobile-width: 480px;
+
+    --font-primary: 'Helvetica Neue Thin';
+    --font-secondary: ;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Thin';
+    src: url('../Fonts/HelveticaNeueCyr-Thin.woff') format('woff');
+    font-style: normal;
+}
+
+p{
+    font-family: var(--font-primary);
+}
