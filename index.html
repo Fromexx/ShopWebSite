@@ -14,7 +14,7 @@
         <div class="header_head">
             <a href="#">Помощь</a>
             <span>|</span>
-            <a href="#">Войти</a>
+            <a href="#" onclick="openModalWindow()">Войти</a>
         </div>
 
         <div class="header_content" id="header">
@@ -201,8 +201,64 @@
                 </div>
             </div>
         </section>
+
+        <div class="modal" id="myModal">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <span class="close" onclick="closeModalWindow()">&times;</span>
+                </div>
+
+                <div class="modal_header_logo">
+                    <img src="./Images/logo.svg" alt="logo">
+                    <p>YOUR ACCOUNT FOR EVERYTHING NIKE</p>
+                </div>
+
+                <div class="modal_body">
+                    <form action="#" id="feedback_form">
+                        <div class="feedback_form_content">
+                            <input type="text" class="input_box" placeholder="email">
+                            <input type="password" class="input_box" placeholder="password">
+                            <div>
+                                Входя в систему, вы соглашаетесь с <a href="#">Privacy Policy</a> и <a href="#">Terms of User</a>
+                            </div>
+
+                            <input type="submit" class="button">
+                            <div>
+                                Еще не с нами? <a href="#">Зарегестрироваться</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="footer_menu">
+                <nav class="footer_menu_column">
+                    <a href="#">О NIKE</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Карьера</a>
+                    <a href="#">Инвесторы</a>
+                </nav>
+
+                <div class="footer_menu_icons">
+                    <a href="#"><img src="./Images/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="./Images/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="./Images/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="./Images/youtube.svg" alt="youtube"></a>
+                </div>
+            </div>
+
+            <p class="footer_about">
+                © 2023 Nike, Inc. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
     <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/AdaptiveMenu.js"></script>
+    <script src="./scripts/ModalWindow.js"></script>
 </body>
 </html>
