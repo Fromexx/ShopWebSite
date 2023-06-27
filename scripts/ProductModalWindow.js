@@ -1,9 +1,9 @@
-let modal = document.getElementById("productModalWindow");
+let modal2 = document.getElementById("productModalWindow");
 
 function openProductModalWindow(){
-    modal.style.display = "block";
+    modal2.style.display = "block";
 }
 
 function closeProductModalWindow(){
-    modal.style.display = "none";
+    modal2.style.display = "none";
 }
